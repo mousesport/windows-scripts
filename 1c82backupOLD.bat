@@ -1,5 +1,5 @@
-rem  start "" /wait "C:\Program Files\1cv82\8.2.19.83\bin\1cv8.exe" ENTERPRISE /S 10.255.254.3\BuhStrOrg /N backup /P avt747556 /C"РазрешитьРаботуПользователей" /UC"КодРазрешения" /DisableStartupMessages /OUT"%log%" -NoTruncate
-rem  start "" /wait "C:\Program Files\1cv82\8.2.19.83\bin\1cv8.exe" ENTERPRISE /S 10.255.254.3\BuhStrOrg /N backup /P avt747556 /C"РазрешитьРаботуПользователей" /UCПакетноеОбновлениеКонфигурацииИБ /DisableStartupMessages /OUT"%log%" -NoTruncate
+rem  start "" /wait "C:\Program Files\1cv82\8.2.19.83\bin\1cv8.exe" ENTERPRISE /S 10.255.254.3\BuhStrOrg /N backup /P 123456 /C"РазрешитьРаботуПользователей" /UC"КодРазрешения" /DisableStartupMessages /OUT"%log%" -NoTruncate
+rem  start "" /wait "C:\Program Files\1cv82\8.2.19.83\bin\1cv8.exe" ENTERPRISE /S 10.255.254.3\BuhStrOrg /N backup /P 123456 /C"РазрешитьРаботуПользователей" /UCПакетноеОбновлениеКонфигурацииИБ /DisableStartupMessages /OUT"%log%" -NoTruncate
 
 chcp 1251
 @echo off
